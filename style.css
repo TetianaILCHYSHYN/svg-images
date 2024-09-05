@@ -1,0 +1,178 @@
+body {
+
+  display: flex;
+  margin 20%;
+  background-color: #E5E5E5;
+  min-height: 100vh;
+
+}
+
+main {
+  display: block;
+  margin: auto;
+  background-color: #FFFFFF;
+  width: 1440px;
+  height: 934px;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+
+  width: 1440px;
+  height: 80px;
+}
+
+.service {
+  display: block;
+  width: 1170px;
+  height: 461px;
+  
+}
+
+#our {
+  margin-top: 100px;
+}
+
+.container {
+  display: flex;
+  margin-left: 135px;
+  width: 1170px;
+  height: 80px;
+  align-items: center;
+
+}
+
+hr {
+  width: 1440px;
+  height: 1px;
+  background-color: EFEEF3;
+  opacity: 25%;
+}
+
+div #ve {
+  margin-right: 10px;
+}
+
+#title {
+  margin-top: 15px;
+}
+
+.service {
+  display: block;
+  height: 661px;
+  margin-top: 100x;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+/*ul li {
+  list-style: none;
+  height: 340px;
+  padding: 40px;
+  border: 2px solid #E5EAF4;
+  border-radius: 10px; 
+  }*/
+  
+  ul {
+   /* display: flex;
+    justify-content: space-between;*/
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 0;
+  }
+
+ul,li {
+  
+  height: 340px
+}
+  li {
+    flex: 1;
+    padding-top: 40px;
+  }
+
+  .item, .it {
+    margin-right: 30px;
+  }
+
+ .cards>li {
+  list-style: none;
+  width: 33.3%;
+  display: inline-block;
+  border: 1px solid #3DB370;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 40px;
+  transition: 0.5s;
+  cursor: cell;
+ }
+
+ .cards>li:not(:hover) {
+  border-color:#E5EAF4 ;
+ }
+
+ .icon {
+  display:grid;
+  align-content: space-evenly;
+  justify-content: space-around;
+  width: 60px;
+  height: 60px;
+  border: 2px solid rgba(0, 0, 255, 0.1);
+  
+  padding: 4;
+  border-radius: 10px;
+}
+
+.item {
+  border-color: #3DB370;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  display: block;
+  width: 1440px;
+  height: 193px;
+  background-color: #16133D;
+}
+
+#vec,
+#ins {
+  margin-left: 135px;
+}
+
+#vec,
+#freehand1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.ins img {
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3DB370;
+}
+
